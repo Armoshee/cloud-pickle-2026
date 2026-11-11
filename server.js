@@ -31,18 +31,7 @@ const CHENNAI_DELIVERY_FEE = Number(process.env.CHENNAI_DELIVERY_FEE_INR || 60);
 const DOMESTIC_DELIVERY_FEE = Number(process.env.DOMESTIC_DELIVERY_FEE_INR || 120);
 
 const PRODUCTS = Object.freeze({
-    "chicken-pickle": { name: "Chicken Pickle", price: 300, grams: 250 },
-    "beef-pickle": { name: "Beef Pickle", price: 380, grams: 250 },
-    "mutton-pickles": { name: "Mutton Pickle", price: 700, grams: 250 },
-    "prawn-pickle": { name: "Prawn Pickle", price: 400, grams: 250 },
-    "fish-pickles": { name: "Fish Pickle", price: 500, grams: 250 },
-    "beef-sambal": { name: "Beef Sambal", price: 400, grams: 150 },
-    "chicken-sambal": { name: "Chicken Sambal", price: 250, grams: 150 },
-    "fish-dry-sambal": { name: "Fish Dry Sambal", price: 320, grams: 150 },
-    "prawn-sambal": { name: "Prawn Sambal", price: 350, grams: 150 },
-    "squid-sambal": { name: "Squid Sambal", price: 350, grams: 150 },
-    "nethli-dry-fish-sambal": { name: "Nethli Dry Fish Sambal", price: 350, grams: 150 },
-    "kongu-nadu-pirandai-thokku": { name: "Kongu Nadu Pirandai Thokku", price: 220, grams: 200 },
+   
     "madurai-chinna-vengayam-thokku": { name: "Madurai Chinna Vengayam Thokku", price: 210, grams: 200 },
     "mylapore-vatha-kolambu": { name: "Mylapore Vatha Kolambu", price: 190, grams: 200 },
     "rameshwaram-poondu-thokku": { name: "Rameshwaram Poondu Thokku", price: 210, grams: 200 }
